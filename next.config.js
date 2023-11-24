@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+// eslint-disable-next-line object-curly-newline
+const nextConfig = {
+  experimental: {
+    forceSwcTransforms: true,
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

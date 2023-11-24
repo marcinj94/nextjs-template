@@ -1,12 +1,15 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from 'next/image';
+import styles from './page.module.css';
 
 export default function Home() {
+  const test = 2;
+  const test2 = 123;
+
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
+          Get {test} {test2} started by editing&nbsp;
           <code className={styles.code}>app/page.tsx</code>
         </p>
         <div>
@@ -85,11 +88,9 @@ export default function Home() {
           <h2>
             Deploy <span>-&gt;</span>
           </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
+          <p>Instantly deploy your Next.js site to a shareable URL with Vercel.</p>
         </a>
       </div>
     </main>
-  )
+  );
 }

@@ -1,17 +1,113 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js + Typescript + Jest starter Template
+
+---
+
+## This repository is 🔋 battery packed with:
+
+- ⚡️ Next.js v14 with App Router
+- ⚛️ React v18
+- ✨ TypeScript
+- 🃏 Jest — Configured for unit testing
+- 📏 ESLint & AirBnb Style Guide — Find and fix problems in your code, also will auto sort your imports
+- 💖 Prettier — Format your code consistently
+- 🐶 Husky & Lint Staged — Run scripts on your staged files before they are committed
+- 🤖 Conventional Commit Lint — Make sure you & your teammates follow conventional commit
+- 🔥 Conventional Branch Lint - Make sure you & your teammates follow conventional branch names
+
+## Incoming ✨ features :
+
+- 📈 Absolute Import and Path Alias — Import components using @/ prefix
+- 📖 Storybook - Components UI lib & tests
+- 🏭 Hygen - The scalable code generator that saves you time.
+- 👷 Github Actions — Lint your code on PR
+- ⏰ Release Please — Generate your changelog by activating the release-please workflow
+
+---
+
+## Additional 💡 informations:
+
+### Scripts 📝:
+
+#### Prettier
+
+- check - verify app code to prettier rules
+
+```
+$ yarn prettier:check
+```
+
+- fix - update app code to prettier rules
+
+```
+$ yarn prettier:fix
+```
+
+#### Eslint + AirBnb Style Guide
+
+- check - verify app code to eslint & airBnb rules
+
+```
+$ yarn eslint:check
+```
+
+- fix - update app code to eslint & airBnb rules
+
+```
+$ yarn eslint:fix
+```
+
+#### Jest
+
+- test - run all app tests
+
+```
+$ yarn test
+```
+
+- test:watch - run all your tests and wait for any updates
+
+```
+$ yarn test:watch
+```
+
+### Husky with:
+
+#### 🔥 Conventional Branch Lint
+
+For that it's used **git-commit-msg-linter** package, alternatively you can use **commitlink** package
+
+#### 🤖 Conventional Commit Lint
+
+For that it's used **validate-branch-name** package, configuration is available on .**validate-branch-namerc.json** file
+
+---
+
+⚠️ How to fix **TypeError: \_prettier.resolveConfig.sync is not a function** error:
+
+Downgrade according packages to specific versions [https://github.com/prettier/eslint-plugin-prettier/issues/562#issuecomment-1772512836]:
+
+```
+"eslint-plugin-prettier": "^4.2.1",
+"prettier": "^2.8.8",
+"pretty-quick": "^3.1.3",
+```
+
+---
 
 ## Getting Started
 
-First, run the development server:
+1. Install dependencies
+   It is encouraged to use yarn so the husky hooks can work properly.
 
 ```bash
-npm run dev
-# or
+yarn install
+```
+
+1. Run the development server
+   You can start the server using this command:
+
+```bash
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
