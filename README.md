@@ -72,11 +72,15 @@ $ yarn test:watch
 
 ### Husky with:
 
-#### 🔥 Conventional Branch Lint
+#### 🔥 Conventional Commit Lint
 
-For that it's used **git-commit-msg-linter** package, alternatively you can use **commitlink** package
+For that it's used **commitizen** & **commitlint** packages. To commit your changes instead of using tradition **git commit** command, use (interactive helper):
 
-#### 🤖 Conventional Commit Lint
+```
+yarn save:commit
+```
+
+#### 🤖 Conventional Branch Lint
 
 For that it's used **validate-branch-name** package, configuration is available on .**validate-branch-namerc.json** file
 
