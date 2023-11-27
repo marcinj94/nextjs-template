@@ -13,6 +13,7 @@
 - 🐶 Husky & Lint Staged — Run scripts on your staged files before they are committed
 - 🤖 Conventional Commit Lint — Make sure you & your teammates follow conventional commit
 - 🔥 Conventional Branch Lint - Make sure you & your teammates follow conventional branch names
+- 🐙 CHANGELOG automatization - create .md file based on commit history
 
 ## Incoming ✨ features :
 
@@ -32,43 +33,67 @@
 
 - check - verify app code to prettier rules
 
-```
-$ yarn prettier:check
+```bash
+yarn prettier:check
 ```
 
 - fix - update app code to prettier rules
 
-```
-$ yarn prettier:fix
+```bash
+yarn prettier:fix
 ```
 
 #### Eslint + AirBnb Style Guide
 
 - check - verify app code to eslint & airBnb rules
 
-```
-$ yarn eslint:check
+```bash
+yarn eslint:check
 ```
 
 - fix - update app code to eslint & airBnb rules
 
-```
-$ yarn eslint:fix
+```bash
+yarn eslint:fix
 ```
 
 #### Jest
 
 - test - run all app tests
 
-```
-$ yarn test
+```bash
+yarn test
 ```
 
 - test:watch - run all your tests and wait for any updates
 
+```bash
+yarn test:watch
 ```
-$ yarn test:watch
+
+For that it's used **validate-branch-name** package, configuration is available on **.validate-branch-namerc.json** file
+
+#### 🐙 CHANGELOG automatization
+
+From now on after you commit your changes you will be able to run
+
+```bash
+yarn release:minor
 ```
+
+or
+
+```bash
+yarn release:patch
+```
+
+or
+
+```bash
+yarn release:major
+```
+
+depending on your changes (according to [NPM docs](https://docs.npmjs.com/about-semantic-versioning) tutorial).
 
 ### Husky with:
 
@@ -76,13 +101,11 @@ $ yarn test:watch
 
 For that it's used **commitizen** & **commitlint** packages. To commit your changes instead of using tradition **git commit** command, use (interactive helper):
 
-```
+```bash
 yarn save:commit
 ```
 
 #### 🤖 Conventional Branch Lint
-
-For that it's used **validate-branch-name** package, configuration is available on .**validate-branch-namerc.json** file
 
 ---
 
