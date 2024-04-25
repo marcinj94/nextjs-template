@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import styles from './page.module.css';
 
-export default function Home() {
+const Home = () => {
   const test = 2;
   const test2 = 123;
 
@@ -93,4 +93,6 @@ export default function Home() {
       </div>
     </main>
   );
-}
+};
+
+export default Home;
