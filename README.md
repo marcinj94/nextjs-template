@@ -15,11 +15,11 @@
 - 🔥 Conventional Branch Lint - Make sure you & your teammates follow conventional branch names
 - 🐙 CHANGELOG automatization - create .md file based on commit history
 - 📖 Storybook - Components UI lib & tests
+- 🏭 Hygen - The scalable code generator that saves you time.
 
 ## Incoming ✨ features :
 
 - 📈 Absolute Import and Path Alias — Import components using @/ prefix
-- 🏭 Hygen - The scalable code generator that saves you time.
 - 👷 Github Actions — Lint your code on PR
 - ⏰ Release Please — Generate your changelog by activating the release-please workflow
 
@@ -88,6 +88,20 @@ yarn build-storybook
 ```
 
 For that it's used **@storybook/...** packages, configuration is available on **.storybook/main.ts & .storybook/preview.ts** files
+
+#### Hygen
+
+- hygen component new **name** - create component files (index.tsx & **name**.stories.tsx) into app/components/**name**
+
+```bash
+hygen component new [name]
+```
+
+For that it's used **hygen** global npm package, in case if its not installed globally on your local machine run ([Hygen quick start](https://www.hygen.io/docs/quick-start/)):
+
+```bash
+npm i -g hygen
+```
 
 #### 🐙 CHANGELOG automatization
 
