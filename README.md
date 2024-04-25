@@ -14,11 +14,11 @@
 - 🤖 Conventional Commit Lint — Make sure you & your teammates follow conventional commit
 - 🔥 Conventional Branch Lint - Make sure you & your teammates follow conventional branch names
 - 🐙 CHANGELOG automatization - create .md file based on commit history
+- 📖 Storybook - Components UI lib & tests
 
 ## Incoming ✨ features :
 
 - 📈 Absolute Import and Path Alias — Import components using @/ prefix
-- 📖 Storybook - Components UI lib & tests
 - 🏭 Hygen - The scalable code generator that saves you time.
 - 👷 Github Actions — Lint your code on PR
 - ⏰ Release Please — Generate your changelog by activating the release-please workflow
@@ -72,6 +72,22 @@ yarn test:watch
 ```
 
 For that it's used **validate-branch-name** package, configuration is available on **.validate-branch-namerc.json** file
+
+#### Storybook
+
+- storybook - run the development server
+
+```bash
+yarn storybook
+```
+
+- build-storybook - build deploy version of storybook guide
+
+```bash
+yarn build-storybook
+```
+
+For that it's used **@storybook/...** packages, configuration is available on **.storybook/main.ts & .storybook/preview.ts** files
 
 #### 🐙 CHANGELOG automatization
 
