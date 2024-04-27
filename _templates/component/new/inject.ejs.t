@@ -1,6 +1,6 @@
 ---
 inject: true
-to: app/components/index.ts
+to: src/components/index.ts
 skip_if: components/<%= h.capitalize(name) %>
 append: true
 ---

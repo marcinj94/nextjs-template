@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import styles from './page.module.css';
+import styles from '@/src/styles/page.module.css';
+import { Button } from '@/src/components';
 
 const Home = () => {
   const test = 2;
@@ -12,6 +13,7 @@ const Home = () => {
           Get {test} {test2} started by editing&nbsp;
           <code className={styles.code}>app/page.tsx</code>
         </p>
+        <Button label="test" />
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"

@@ -16,10 +16,11 @@
 - 🐙 CHANGELOG automatization - create .md file based on commit history
 - 📖 Storybook - Components UI lib & tests
 - 🏭 Hygen - The scalable code generator that saves you time.
+- 📈 Absolute Import and Path Alias — Import components using @/ prefix (**@/app** & **@/src**)
 
 ## Incoming ✨ features :
 
-- 📈 Absolute Import and Path Alias — Import components using @/ prefix
+- 🎀 Tailwind CSS - utility-first CSS framework
 - 👷 Github Actions — Lint your code on PR
 - ⏰ Release Please — Generate your changelog by activating the release-please workflow
 
@@ -91,10 +92,16 @@ For that it's used **@storybook/...** packages, configuration is available on **
 
 #### Hygen
 
-- hygen component new **name** - create component files (index.tsx & **name**.stories.tsx) into app/components/**name**
+- hygen component new **name** - create component files (index.tsx & **name**.stories.tsx) into src/components/**name**
 
 ```bash
 hygen component new [name]
+```
+
+- hygen util new **name** - create util files (index.ts & **name**.test.tsx) into src/utils/**name**
+
+```bash
+hygen util new [name]
 ```
 
 For that it's used **hygen** global npm package, in case if its not installed globally on your local machine run ([Hygen quick start](https://www.hygen.io/docs/quick-start/)):
