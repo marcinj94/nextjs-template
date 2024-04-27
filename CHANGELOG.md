@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/marcinj94/nextjs-template/compare/v0.1.4...v0.1.5) (2024-04-27)
+
+### Features
+
+- **tailwind:** init tailwind css - a utility-first CSS framework ([98d7940](https://github.com/marcinj94/nextjs-template/commit/98d7940a4ff0f0d18d1f5442e9ff32446e1ff591))
+
 ### [0.1.4](https://github.com/marcinj94/nextjs-template/compare/v0.1.3...v0.1.4) (2024-04-27)
 
 ### Features

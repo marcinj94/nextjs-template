@@ -31,7 +31,11 @@ export const Nav: React.FC<NavProps> = () => {
         }}
       >
         {navItems.map(({ url, label }) => (
-          <Link href={url}>{label}</Link>
+          <li>
+            <Link className="font-bold" href={url}>
+              {label}
+            </Link>
+          </li>
         ))}
       </ul>
     </nav>
