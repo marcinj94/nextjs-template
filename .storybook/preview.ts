@@ -1,4 +1,5 @@
 import type { Preview } from '@storybook/react';
+import '../src/styles/globals.css';
 
 //👇 Configures Storybook to log the actions( onArchiveTask and onPinTask ) in the UI.
 /** @type { import('@storybook/react').Preview } */

@@ -16,7 +16,10 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
   <html lang="en">
     <body className={inter.className}>
       <Nav />
-      <main>{children}</main>
+      <main>
+        <h1 className="text-3xl font-bold underline">Hello world!</h1>
+        <section>{children}</section>
+      </main>
     </body>
   </html>
 );
