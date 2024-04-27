@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/marcinj94/nextjs-template/compare/v0.1.3...v0.1.4) (2024-04-27)
+
+### Features
+
+- **folder-structure:** update folder structure | new hygen template | support absolute imports ([704a2a1](https://github.com/marcinj94/nextjs-template/commit/704a2a16cb84a8ebb85597afcc42d2f2511f795f))
+
 ### [0.1.3](https://github.com/marcinj94/nextjs-template/compare/v0.1.2...v0.1.3) (2024-04-25)
 
 ### Features
