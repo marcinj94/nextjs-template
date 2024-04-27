@@ -17,10 +17,10 @@
 - 📖 Storybook - Components UI lib & tests
 - 🏭 Hygen - The scalable code generator that saves you time.
 - 📈 Absolute Import and Path Alias — Import components using @/ prefix (**@/app** & **@/src**)
+- 🎀 Tailwind CSS - utility-first CSS framework
 
 ## Incoming ✨ features :
 
-- 🎀 Tailwind CSS - utility-first CSS framework
 - 👷 Github Actions — Lint your code on PR
 - ⏰ Release Please — Generate your changelog by activating the release-please workflow
 
