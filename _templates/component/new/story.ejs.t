@@ -1,5 +1,5 @@
 ---
-to: app/components/<%= h.capitalize(name) %>/<%= h.capitalize(name) %>.stories.tsx
+to: src/components/<%= h.capitalize(name) %>/<%= h.capitalize(name) %>.stories.tsx
 ---
 import type { Meta, StoryObj } from '@storybook/react';
 import { <%= h.capitalize(name) %> } from '.';

@@ -1,5 +1,5 @@
 ---
-to: app/components/<%= h.capitalize(name) %>/index.tsx
+to: src/components/<%= h.capitalize(name) %>/index.tsx
 ---
 interface <%= h.capitalize(name) %>Props {
   firstProp: string;
